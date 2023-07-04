@@ -4,8 +4,8 @@ jobs:
      runs-on: ubuntu-latest
      container: node:18.16.1-alpine3.17
      steps:
-      - run: node --version
-      - run: npm --version
-      -uses: actions/checkout@v2 
+     - run: node --version
+     - run: npm --version
+     - uses: actions/checkout@v2 
 
     
