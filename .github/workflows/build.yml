@@ -1,6 +1,7 @@
 on: push
 jobs:  
     release-job:
+     steps:
      - uses: actions/download-artifact@v3
      - runs-on: ubuntu-latest
     
