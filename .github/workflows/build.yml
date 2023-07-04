@@ -1,11 +1,10 @@
 on: push
 jobs:  
     release-job:
-     steps:
- 
+ steps:
      uses: actions/download-artifact@v3
        with:
-    name: my-artifact
+    name: my-artifact-dan-test
     first-job:
      runs-on: ubuntu-latest
      container: node:18.16.1-alpine3.17
